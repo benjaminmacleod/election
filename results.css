@@ -1,0 +1,74 @@
+body {
+  font-family: Inter, sans-serif;
+  margin: 40px;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  color: #333;
+}
+#searchResultsInput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  /* Make the search bar sticky */
+  position: sticky;
+  top: 0; /* Stick it to the top of the page */
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #fff; /* Optional: keeps the background white while scrolling */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for a nicer look */
+}
+.highlight {
+  background-color: yellow; /* Highlight color */
+  font-weight: bold; /* Optional: makes the matched text stand out more */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #e9ecef;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.liberal-party {
+  color: red;
+font-weight: bold;
+}
+.ndp {
+  color: orange;
+    font-weight: bold;
+}
+.conservative {
+  color: blue;
+    font-weight: bold;
+}
+.bloc {
+  color: #209ed4;
+    font-weight: bold;
+}
+.green {
+  color: green;
+    font-weight: bold;
+}
+.ppc {
+  color: purple;
+    font-weight: bold;
+}
